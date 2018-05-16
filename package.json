@@ -1,7 +1,7 @@
 {
   "name": "freelancer",
   "title": "Freelancer",
-  "version": "3.3.7+1",
+  "version": "3.3.7",
   "homepage": "http://startbootstrap.com/template-overviews/freelancer",
   "author": "Start Bootstrap",
   "license": {
@@ -23,5 +23,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/robert-garcia"
-  }
+  },
+  "description": "[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
 }
