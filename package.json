@@ -1,12 +1,12 @@
 {
-  "name": "freelancer",
-  "title": "Freelancer",
+  "name": "robertcgarcia",
+  "title": "Robert C. Garcia",
   "version": "3.3.7",
-  "homepage": "http://startbootstrap.com/template-overviews/freelancer",
-  "author": "Start Bootstrap",
+  "homepage": "http://robertcgarcia.com",
+  "author": "Robert C. Garcia",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/robert-garcia/robertcgarcia.com/LICENSE"
+    "url": "https://github.com/robert-garcia/robertcgarcia.com/blob/master/LICENSE"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
