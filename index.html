@@ -22,6 +22,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- Google Map JavaScript  -->
+    <script src="js/my_map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkiWidMmpTtYUYqD3u568m-rvfaNzMXx4&callback=initMap"></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -244,6 +249,7 @@
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
                         <p>Avondale, Arizona</p>
+                        <div id="map"></div>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -520,6 +526,9 @@
         </div>
     </div>
 
+
+
+    </script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
