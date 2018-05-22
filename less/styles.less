@@ -145,10 +145,12 @@ header {
 	.navbar-nav {
 		letter-spacing: 1px;
 		li {
+
 			a {
+				border-radius: 8px;
 				color: white;
 				&:hover {
-					color: @theme-success;
+					color: @theme-custom-btn;
 					outline: none;
 				}
 				&:focus,
@@ -159,12 +161,12 @@ header {
 			&.active {
 				a {
 					color: white;
-					background: @theme-success;
+					background: @theme-custom-btn;
 					&:hover,
 					&:focus,
 					&:active {
 						color: white;
-						background: @theme-success;
+						background: @theme-custom-btn;
 					}
 				}
 			}
@@ -177,9 +179,9 @@ header {
 		border-color: white;
 		&:hover,
 		&:focus {
-			background-color: @theme-success;
+			background-color: @theme-custom-btn;
 			color: white;
-			border-color: @theme-success;
+			border-color: @theme-custom-btn;
 		}
 	}
 }
