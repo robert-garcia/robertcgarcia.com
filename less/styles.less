@@ -1,6 +1,7 @@
 @import "variables.less";
 @import "mixins.less";
 
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -80,7 +81,13 @@ hr.star-primary:after {
 
 header {
 	text-align: center;
-	background: @theme-success;
+	// background: @theme-success;
+	background-image: url('@{base-url}img/background.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: cover;
+	background-attachment: fixed;
+	// background-position: ;
 	color: white;
 	.container {
 		padding-top: 100px;

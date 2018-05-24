@@ -75,7 +75,11 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #1981C4;
+  background-image: url('http://www.robertcgarcia.com/img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
 }
 header .container {
@@ -163,9 +167,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #1981C4;
+  background-color: #FF5913;
   color: white;
-  border-color: #1981C4;
+  border-color: #FF5913;
 }
 @media (min-width: 768px) {
   .navbar-custom {
