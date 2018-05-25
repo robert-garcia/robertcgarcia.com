@@ -522,7 +522,7 @@ fieldset[disabled] .btn-success.active {
   width: 100%;
 }
 .name-icon {
-  background-image: url(favicon.ico);
+  background-image: url("http://dev.robertcgarcia.com/favicon.ico");
   height: 20px;
   width: 20px;
 }
