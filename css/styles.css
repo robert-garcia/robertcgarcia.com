@@ -75,11 +75,12 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background-image: url('http://www.robertcgarcia.com/img/background.jpg');
+  background-image: url('http://dev.robertcgarcia.com/img/background.jpg');
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
   background-attachment: fixed;
+  height: 100%;
   color: white;
 }
 header .container {
@@ -519,4 +520,9 @@ fieldset[disabled] .btn-success.active {
 #map {
   height: 400px;
   width: 100%;
+}
+.name-icon {
+  background-image: url(favicon.ico);
+  height: 20px;
+  width: 20px;
 }
