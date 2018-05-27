@@ -337,7 +337,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #1981C4;
+  color: #FF5913;
   background: white;
   border: solid 2px white;
 }
@@ -385,8 +385,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #1981C4;
-  border-color: #1981C4;
+  background-color: #FF5913;
+  border-color: #FF5913;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -395,8 +395,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #136397;
-  border-color: #125d8e;
+  background-color: #df4200;
+  border-color: #d53f00;
 }
 .btn-success:active,
 .btn-success.active,
@@ -418,11 +418,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #1981C4;
-  border-color: #1981C4;
+  background-color: #FF5913;
+  border-color: #FF5913;
 }
 .btn-success .badge {
-  color: #1981C4;
+  color: #FF5913;
   background-color: white;
 }
 .btn-social {
@@ -519,9 +519,5 @@ fieldset[disabled] .btn-success.active {
 }
 #map {
   height: 400px;
-  width: 100%;
-}
-.name-icon {
-  background-image: url("http://dev.robertcgarcia.com/favicon.ico");
   width: 100%;
 }

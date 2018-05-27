@@ -88,7 +88,6 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
-	// background-position: ;
 	color: white;
 	.container {
 		padding-top: 100px;
@@ -379,7 +378,7 @@ footer {
 	&:focus,
 	&:active,
 	&.active {
-		color: @theme-success;
+		color: @theme-custom-btn;
 		background: white;
 		border: solid 2px white;
 	}
@@ -391,7 +390,7 @@ footer {
 }
 
 .btn-success {
-	.button-variant(white; @theme-success; @theme-success);
+	.button-variant(white; @theme-custom-btn; @theme-custom-btn);
 	font-weight: 700;
 }
 
@@ -495,10 +494,5 @@ footer {
 
 #map {
 	height: 400px;
-	width: 100%;
-}
-
-.name-icon {
-	background-image: url("@{base-url}favicon.ico");
 	width: 100%;
 }
